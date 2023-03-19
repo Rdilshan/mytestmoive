@@ -1,0 +1,62 @@
+CREATE DATABASE movieDB;
+
+
+CREATE TABLE film (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(2550) NOT NULL,
+  year INT,
+  image VARCHAR(2550),
+  link VARCHAR(2550) NOT NULL,
+  ytlink VARCHAR(2550) NOT NULL
+);
+
+CREATE TABLE Tvseries (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(2550) NOT NULL,
+  year INT,
+  image VARCHAR(2550),
+  link VARCHAR(2550) NOT NULL,
+  ytlink VARCHAR(2550) NOT NULL
+);
+
+
+INSERT INTO film (name, year, image, link, ytlink)
+VALUES
+("Operation Fortune: Ruse de Guerre", 2023,"https://www.linkpicture.com/q/Operation-Fortune-Ruse-de-guerre.jpg","https://cinesubz.co/movies/operation-fortune-ruse-de-guerre-2023-sinhala-subtitles/", "https://www.youtube.com/embed/W8Sqk1GcqxY"),
+("Guillermo del Toro’s Pinocchio", 2023,"https://www.linkpicture.com/q/Guillermo-del-Toro-s-Pinocchio.jfif","https://cinesubz.co/movies/guillermo-del-toros-pinocchio-2022-sinhala-subtitles/", "https://www.youtube.com/embed/Od2NW1sfRdA"),
+("Legion of Super-Heroes", 2023, "https://www.linkpicture.com/q/Legion-of-Super-Heroes.jfif", "https://cinesubz.co/movies/legion-of-super-heroes-2023-sinhala-subtitles/", "https://www.youtube.com/embed/XoC0gPaFuTo"),
+("Kingdom: Ashin of the North", 2021, "https://www.linkpicture.com/q/Kingdom-Ashin-of-the-North.jpg", "https://wallpaperfrog.com/kingdom-ashin-of-the-north-wallpaper-m1871", "https://www.youtube.com/embed/0MTbuQEt_IQ"),
+("Night Train", 2023, "https://www.linkpicture.com/q/night-train.jpg", "https://wallpaperfrog.com/night-train-wallpaper-m32113", "https://www.youtube.com/embed/UHiqUBdl8CE"),
+("Go to Bed, Raymond", 2022, "https://www.linkpicture.com/q/Go-to-Bed-Raymond_1.jpg", "https://wallpaperfrog.com/go-to-bed-raymond-wallpaper-m37557", "https://www.youtube.com/embed/A-Iep_LuKZk"),
+("Shotgun Wedding", 2022, "https://www.linkpicture.com/q/Shotgun-Wedding.jpg", "https://wallpaperfrog.com/shotgun-wedding-wallpaper-m6659", "https://www.youtube.com/embed/qNVwRHQL8jw"),
+("Single Shankarum Smartphone Simranum", 2021, "https://www.linkpicture.com/q/Single-Shankarum-Smartphone-Simranum.jpg", "https://wallpaperfrog.com/single-shankarum-smartphone-simranum-wallpaper-m62828", "https://www.youtube.com/embed/0HKRj5iY9Tk");
+
+INSERT INTO Tvseries (name, year, link, image, ytlink)
+VALUES 
+('Motel Paradis', 2022, 'https://wallpaperfrog.com/motel-paradis-wallpaper-m51251', 'https://www.linkpicture.com/q/Motel-Paradis.jpg', 'https://www.youtube.com/embed/-FJ_8g8sB2g'),
+('Hello, My Noisy MP3', 2022, 'https://wallpaperfrog.com/hello-my-noisy-mp3-wallpaper-m52643', 'https://www.linkpicture.com/q/Hello-My-Noisy-MP3.jpg', 'https://www.youtube.com/embed/YDSIFxcgC4s'),
+('DV计划', 2022, 'https://wallpaperfrog.com/dv-wallpaper-m56813', 'https://www.linkpicture.com/q/DV计划.jpg', 'https://www.youtube.com/embed/u2mK9gT5N3M'),
+('Lima - Indsatsledere I Aktion', 2023, 'https://wallpaperfrog.com/lima-indsatsledere-i-aktion-wallpaper-m62743', 'https://www.linkpicture.com/q/Lima-Indsatsledere-I-Aktion.jpg', 'https://www.youtube.com/embed/fjjzVbTBF8o'),
+('Growing Up', 2022, 'https://wallpaperfrog.com/growing-up-wallpaper-m53355', 'https://www.linkpicture.com/q/Growing-Up.jpg', 'https://www.youtube.com/embed/tFMQs50V1g8'),
+('Saint Seiya', 1998, 'https://wallpaperfrog.com/saint-seiya-wallpaper-m11725', 'https://www.linkpicture.com/q/Saint-Seiya.jpg', 'https://www.youtube.com/embed/MiJBx8Qh5wg'),
+('The Island of Siliang', 2021, 'https://wallpaperfrog.com/the-island-of-siliang-wallpaper-m48642', 'https://www.linkpicture.com/q/The-Island-of-Siliang.jpg', 'https://www.youtube.com/embed/DwjzmQuL7Vs'),
+('Christian', 2022, 'https://wallpaperfrog.com/christian-wallpaper-m51193', 'https://www.linkpicture.com/q/Christian_1.jpg', 'https://www.youtube.com/embed/GdyWxfxD_ww');
+
+name - film name
+year - film year
+image - film poster image url
+link - film download link
+ytlink - youtube trail link
+ give the me sample data for that format
+
+
+$servername = "127.0.0.1";
+$username = "id20470831_root";
+$password = "#Ir077788075";
+$dbname = "id20470831_moviedb";
+
+
+$servername = "sql204.epizy.com";
+$username = "epiz_33829264";
+$password = "UZZ3ZA5zUqm03";
+$dbname = "epiz_33829264_moviedb";

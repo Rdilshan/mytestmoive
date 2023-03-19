@@ -1,0 +1,117 @@
+/* sidebar css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* other styles as desired */
+    background-color: #ccc;
+    height: 100%;
+    width: 200px;
+  }
+  
+.sidebar h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 5px;
+    background-color: #ccc;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    background-color: #333;
+    color: #fff;
+
+    
+  }
+  .sidebar a:focus {
+    outline: none;
+    background-color: #666;
+    color: #fff;
+    padding: 20px;
+  }
+
+  /* main-content */
+  .main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* filmview */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .filmview {
+    background-color: #eee;
+    padding: 10px;
+    height: 500px;
+    overflow-y: auto;
+  }
+  
+  .tvseriesview {
+    background-color: #ddd;
+    padding: 10px;
+    overflow-y: auto;
+  }    
+
+  
+  /* item of film  */
+  .numbered-list {
+    list-style-type: none;
+    counter-reset: item;
+    padding-left: 0;
+  }
+  
+  .numbered-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .numbered-list li::before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    position: absolute;
+    left: 0;
+  }
+  
+  .list-number {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .list-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-btn, .delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  

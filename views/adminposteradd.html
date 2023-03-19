@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/adminviewpage.css">
+    <link rel="stylesheet" href="../css/adminposteradd.css">
+
+                       
+</head>
+<body>
+    <!-- sidebar start  -->
+    <div class="sidebar">
+        <h2></h2>
+        <ul>
+          <li><a href="#">View</a></li>
+          <li><a href="#">Add</a></li>
+          <li><a href="#">Edit</a></li>
+        </ul>
+      </div>
+    <!-- sidebar end  -->
+    <!-- main-content start -->
+    <div class="main-content">
+		<h1>Add Poster</h1>
+        <form>
+            <label for="type">Type:</label>
+            <select id="type" name="type">
+              <option value="film">Film</option>
+              <option value="tvseries">TV Series</option>
+            </select>
+            
+            <br><br>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <br><br>
+            
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year">
+            
+            <br><br>
+            
+            <label for="image">Image:</label>
+            <input type="text" id="image" name="image">
+            
+            <br><br>
+            
+            <label for="link">Link:</label>
+            <input type="text" id="link" name="link">
+            
+            <br><br>
+            
+            <label for="ylink">YLink:</label>
+            <input type="text" id="ylink" name="ylink">
+            
+            <br><br>
+            
+            <button type="submit" id="save">Add</button>
+            <button type="button" id="cancel">Cancel</button>
+          </form>
+          
+
+            
+	</div>
+    <!-- main-content end  -->
+</body>
+</html>

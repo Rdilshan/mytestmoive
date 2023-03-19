@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    
+    text-align: center;
+  }
+  .viedoyt{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    border-radius: 10px;
+  }
+.postimg {
+    height: 500px;
+}
+/* //title of film  */
+.post-title {
+    font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  }
+
+  /* download button  */
+  .download-btn {
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 0px #ccc;
+  }
+  
+  .download-btn:hover {
+    
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
